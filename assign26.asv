@@ -1,0 +1,13 @@
+clc;
+clear all;
+close all;
+p=1000;
+figure(1);
+
+theta=0:0.1:2*pi;
+r=p./1-(0)*(cos(theta));
+polar(theta,r);
+r=p./1-(0.25)*(cos(theta));
+polar(theta,r);
+r=p./1-(0.5)*(cos(theta));
+polar(theta,r);

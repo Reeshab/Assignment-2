@@ -1,0 +1,8 @@
+clc;
+clear all;
+close all;
+h=input('Enter the height in meters:');
+if(h>=0 && h<19)
+    vol=pi*(12.5)^2*h;
+    disp(vol);
+elseif(h>19 && h<=33)
